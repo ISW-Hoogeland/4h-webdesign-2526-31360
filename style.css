@@ -1,3 +1,8 @@
+:root {
+    --bg-light: #f9fffb;
+    --text-dark: rgb(0, 0, 0);
+    --font-main: 'Segoe UI', sans-serif;
+}
 body {
    grid-template-areas: 
    "header header"
