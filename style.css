@@ -70,5 +70,16 @@ nav a:hover {
   color: #b26868; 
 }
 header h1 {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   font-size: 45px;
+}
+.responsive {
+  position: absolute;
+  right: 31px;
+  top: 50px;
+  transform: translateY(-50%);
+  height: 70px;
+  border-radius: 100px;
 }
