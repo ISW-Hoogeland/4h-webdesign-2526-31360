@@ -66,6 +66,12 @@ footer {
   text-decoration: underline;
 }
 
+.site-footer {
+font-family: 'Comic Neue', sans-serif;
+font-size: 14px;
+line-height: 1.4;
+}
+
 nav ul {
   display: flex;
   flex-direction: column;
