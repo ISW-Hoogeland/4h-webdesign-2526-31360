@@ -34,6 +34,30 @@ nav {
 main {
    grid-area: main;
 }
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 1rem;
+  align-items: start;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+.gallery-item {
+  text-align: center;
+}
+
+.gallery-item img {
+  width: 100%;
+  max-width: 6000px;      /* maakt foto iets kleiner */
+  height: auto;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto;
+  border-radius: 8px;
+}
+
 footer {
    grid-area: footer;
    display: flex;
