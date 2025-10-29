@@ -1,5 +1,11 @@
 
 @import url('https://fonts.googleapis.com/css2?family=BBH+Sans+Hegarty&family=Bubblegum+Sans&display=swap');
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
 :root {
     --bg-light: #ffffff;
     --text-dark: #872d3e;
@@ -14,7 +20,8 @@ body {
    "main nav"
    "footer footer";
    grid-template-columns: 8fr 1fr;
-   grid-template-rows: 80px 1fr 30px;
+   grid-template-rows: auto 1fr auto;
+   min-height: 100vh;
 }
 header {
    grid-area: header;
@@ -30,10 +37,16 @@ header {
 }
 nav {
    grid-area: nav;
+   display: flex;
+   flex-direction: column;
+   align-items: stretch
+   
+   
 }
 main {
    grid-area: main;
    text-align: center;
+   flex: 1;
 }
 .gallery {
   display: grid;
@@ -82,7 +95,7 @@ footer {
   list-style: none;
   background-color: #ffedf1;
   border-radius: 13px;
-  height: 50px;
+  padding: 0.5rem 1rem;
   font-weight: 500;
 }
 
@@ -115,15 +128,17 @@ line-height: 1.4;
 nav ul {
   display: flex;
   flex-direction: column;
+  justify-content: flex-start;
   list-style: none;
   gap: 25px;
   margin: 10px;
   padding: 15px;
   background-color: #ffd4de;
   border-radius: 13px;
-  height: 700px;
   font-weight: 100;
   font-size: 20px;
+  height: 100%;
+  box-sizing: border-box;
 }
 
 nav a {
@@ -148,3 +163,4 @@ header h1 {
   height: 70px;
   border-radius: 100px;
 }
+
