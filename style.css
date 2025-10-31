@@ -165,7 +165,7 @@ header h1 {
   right: 31px;
   top: 45px;
   transform: translateY(-50%);
-  height: 70px;
+  height: 69px;
   border-radius: 100px;
 }
 
@@ -175,12 +175,20 @@ header h1 {
   margin: 15px;
 }
 
+main h3 {
+  font-family: "BBH Sans Hegarty", system-ui;
+  color: #872d3e;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 20px;
+}
 
 .relax {
-font-family: "Chewy", system-ui;
+  font-family: "Chewy", system-ui;
+  color: #b06b78;
   font-weight: 400;
   font-style: normal;
-  font-size: 10px;
+  font-size: 15px;
 }
 
 .box {
@@ -189,9 +197,10 @@ font-family: "Chewy", system-ui;
   padding: 1 rem;
   margin: 15px auto;
   background-color: #ffedf1;
-  width: min(90%, 400px);
+  width: 750px;
   height: auto;
   text-align: center;
   box-sizing: border-box;
+  margin-top: 45px;
 }
 
