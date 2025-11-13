@@ -213,3 +213,17 @@ main h3 {
   padding-left: 25px;
   padding-right: 25px;
 }
+
+.vrijetijd {
+  border: #ecbbc3 3px solid;
+  border-radius: 13px;
+  background-color: #ffedf1;
+  padding-bottom: 25px;
+}
+
+.vrijetijd img {
+  margin-top: 5px;
+  border-radius: 13px;
+  border: #ffffff 2.5px solid;
+ 
+}
