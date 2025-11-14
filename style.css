@@ -202,7 +202,7 @@ main h3 {
   padding: 1 rem;
   margin: 15px auto;
   background-color: #ffedf1;
-  width: 750px;
+  width: 600px;
   height: auto;
   text-align: center;
   box-sizing: border-box;
@@ -225,5 +225,9 @@ main h3 {
   margin-top: 5px;
   border-radius: 13px;
   border: #ffffff 2.5px solid;
- 
+}
+.hobby-images {
+  filter: drop-shadow(0 0 10px rgba(82, 7, 7, 0.2));
+  display: flex;
+ gap: 25px
 }
